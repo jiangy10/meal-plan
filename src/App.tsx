@@ -1,8 +1,10 @@
 import './App.css';
+import MainPage from "./Pages/mainPage";
 
-function App() {
+
+function App():JSX.Element {
   return (
-    <div></div>
+   <MainPage></MainPage>
   );
 }
 
